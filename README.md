@@ -4,8 +4,6 @@ A simple react-tailwind application to fetch data from OMDb API and display the 
 
 <br>
 
-The demo site can be found [here](https://cart-project-raajzz.netlify.app/).
-
 <hr>
 <br><br>
 
