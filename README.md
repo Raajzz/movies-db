@@ -1,4 +1,4 @@
-# CART PROJECT
+# movies-db
 
 A simple react-tailwind application to fetch data from OMDb API and display the data.
 
