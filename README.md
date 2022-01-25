@@ -1,6 +1,10 @@
 # movies-db
 
-A simple react-tailwind application to fetch data from OMDb API and display the data.
+A simple react-tailwind application to fetch data from OMDb API and display the data. <br>
+
+### NOTE
+
+
 
 <br>
 

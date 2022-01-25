@@ -7,10 +7,7 @@ const ShowMovieDetails = () => {
   const [isLoading, setIsLoading] = useState(true);
   const imdbID = useParams().id;
   const type = useParams().type;
-  console.log(dataMovie);
-  console.log(imdbID);
-  console.log(type);
-  
+
   const url = `http://www.omdbapi.com/?i=${imdbID}&apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
   const getDataMovie = async () => {
     const response = await fetch(url);
@@ -20,7 +17,6 @@ const ShowMovieDetails = () => {
     } else {
       setIsLoading(false);
       setDataMovie(data);
-      console.log(dataMovie);
     }
   };
 
