@@ -9,7 +9,7 @@ const App = () => {
   const [modal, setModal] = useState("");
   const [movies, setMovies] = useState([]);
 
-  const url = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}&s=${input}`;
+  const url = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}&s=${input}`;
 
   const getData = async () => {
     const response = await fetch(url)

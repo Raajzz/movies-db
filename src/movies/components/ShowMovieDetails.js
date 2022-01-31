@@ -8,7 +8,7 @@ const ShowMovieDetails = () => {
   const imdbID = useParams().id;
   const type = useParams().type;
 
-  const url = `http://www.omdbapi.com/?i=${imdbID}&apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
+  const url = `https://www.omdbapi.com/?i=${imdbID}&apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
   const getDataMovie = async () => {
     const response = await fetch(url);
     const data = await response.json();
