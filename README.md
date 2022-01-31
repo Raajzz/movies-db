@@ -2,6 +2,8 @@
 
 A simple react-tailwind application to fetch data from OMDb API and display the data. <br>
 
+The demo of the application can be found [here](https://movie-db-raajzz.netlify.app/)
+
 ### NOTE
 
 
